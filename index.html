@@ -1,60 +1,16 @@
 <html lang="en"><head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="CoverLetterPortfolio2/PortCSS.css">
+	<link rel="stylesheet" href="https://hiebertw07.github.io/PortCSS.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<title>Will Hiebert AMP Portfolio</title>
-	<script src="https://github.com/Hiebertw07/CoverLetterPortfolio2/blob/master/Portfolio.js"></script>
+	
 </head>
 <body>
+
 <h1 class="ml9">
   <span class="text-wrapper">
-    <span class="letters">Thank you for considering my application!</span>
+    <span class="letters">Thank you for considering my application</span>
   </span>
 </h1>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script>
-$('.ml9 .letters').each(function(){
-  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-});
-
-ml.timelines["ml9"] = anime.timeline({loop: true})
-  .add({
-    targets: '.ml9 .letter',
-    scale: [0, 1],
-    duration: 1500,
-    elasticity: 600,
-    delay: function(el, i) {
-      return 45 * (i+1)
-    }
-  }).add({
-    targets: '.ml9',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-</script>
-
-<style>
-.ml9 {
-  position: relative;
-  font-weight: 200;
-  font-size: 4em;
-}
-
-.ml9 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.2em;
-  padding-right: 0.05em;
-  padding-bottom: 0.1em;
-  overflow: hidden;
-}
-
-.ml9 .letter {
-  transform-origin: 50% 100%;
-  display: inline-block;
-  line-height: 1em;
-}
-</style>
+<script src="https://github.com/Hiebertw07/hiebertw07.github.io/blob/master/Portfolio.js"></script>
